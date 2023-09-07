@@ -36,14 +36,12 @@ float flexangle(const int FLEX_PIN){
 unsigned long previousMillis = 0; 
 const long interval = 1500;
 int s=0;
-const char* ssid = "Aditya";
-const char* password = "humanbeing1";
-//const char* host = "maker.ifttt.com";
-//const char* apiKey = "eWM0sGTpzTn75DFbWHHthV6DfaCgNpylFv5zZ9TmCEo";
-String server = "http://maker.ifttt.com";
-String eventName = "Smart_Glove";
-String IFTTT_Key = "eWM0sGTpzTn75DFbWHHthV6DfaCgNpylFv5zZ9TmCEo";
-String IFTTTUrl="http://maker.ifttt.com/trigger/Smart_Glove/with/key/eWM0sGTpzTn75DFbWHHthV6DfaCgNpylFv5zZ9TmCEo";
+const char* ssid = "";
+const char* password = "";
+String server = "";
+String eventName = "";
+String IFTTT_Key = "";
+String IFTTTUrl="";
 
 
 void setup() {
